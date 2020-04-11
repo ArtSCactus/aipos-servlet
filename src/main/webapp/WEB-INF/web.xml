@@ -12,7 +12,6 @@
     <servlet>
         <servlet-name>Controller</servlet-name>
         <servlet-class>org.bsuir.controller.Controller</servlet-class>
-        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>Controller</servlet-name>

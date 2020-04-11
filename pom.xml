@@ -15,6 +15,7 @@
         </repository>
     </distributionManagement>
     <build>
+        <defaultGoal>deploy</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -32,6 +33,7 @@
                     <webXml>web\WEB-INF\web.xml</webXml>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -61,6 +63,14 @@
             <artifactId>postgresql</artifactId>
             <version>42.2.12.jre7</version>
         </dependency>-->
+       <!-- <dependency>
+            <groupId>com.github.jsimone</groupId>
+            <artifactId>webapp-runner</artifactId>
+            <version>9.0.27.1</version>
+            <scope>provided</scope>
+        </dependency>-->
+
+
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
