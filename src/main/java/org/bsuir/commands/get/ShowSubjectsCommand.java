@@ -4,9 +4,7 @@ import org.bsuir.commands.main.Command;
 import org.bsuir.commands.result.CommandResult;
 import org.bsuir.commands.result.CommandType;
 import org.bsuir.commands.result.PageContent;
-import org.bsuir.dto.Lesson;
 import org.bsuir.dto.Subject;
-import org.bsuir.service.LessonService;
 import org.bsuir.service.SubjectService;
 import org.bsuir.service.rest.SubjectRestService;
 

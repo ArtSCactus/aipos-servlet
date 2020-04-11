@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Lessons</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../../src/main/webapp/css/style.css" />
     <%--@elvariable id="foundLesson" type="org.bsuir.dto.Lesson"--%>
     <c:set var="foundLesson" value="${pageContent.attributes.get('foundLesson')}"/>
 </head>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Subjects</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../../src/main/webapp/css/style.css" />
     <%--@elvariable id="foundSubject" type="org.bsuir.dto.Subject"--%>
     <c:set var="foundSubject" value="${pageContent.attributes.get('foundSubject')}"/>
 

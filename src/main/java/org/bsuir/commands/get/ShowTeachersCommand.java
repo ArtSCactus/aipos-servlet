@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 public class ShowTeachersCommand implements Command {
-    private static final String TEACHERS_PAGE_PATH ="/WEB-INF/jsp/teachers.jsp";
+    private static final String TEACHERS_PAGE_PATH = "/WEB-INF/jsp/teachers.jsp";
     @Override
     public CommandResult execute(HttpServletRequest request) {
         TeacherService service = new TeacherRestService();

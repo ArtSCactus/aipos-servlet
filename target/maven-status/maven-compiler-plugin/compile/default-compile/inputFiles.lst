@@ -1,6 +1,7 @@
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dto\Student.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\types\GroupDao.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\AddSubject.java
+D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\BootApplication.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\common\AbstractDao.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\rest\SubjectRestDao.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\rowmappers\GroupRowMapper.java
@@ -23,7 +24,6 @@ D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\Ad
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\UpdateSubject.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\rowmappers\SubjectRowMapper.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\service\rest\TeacherRestService.java
-D:\Projects\aipos-servlet\aipos-servlet\src\main\java\Main.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\UpdateLesson.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\controller\Controller.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\types\SubjectDao.java
@@ -33,6 +33,7 @@ D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\service\GroupSer
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\exceptions\rowmapper\RowMapperException.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\get\FindLesson.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\UpdateTeacher.java
+D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\WebConfig.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\DeleteSubject.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\result\CommandType.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\common\RestRequestExecutor.java
@@ -59,6 +60,7 @@ D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\get\Fin
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\rest\GroupRestDao.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\main\DefaultCommand.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\AddLesson.java
+D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\spa\SPAController.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\main\Command.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\get\ShowLessonsCommand.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\DeleteStudent.java

@@ -18,6 +18,7 @@ org\bsuir\commands\main\CommandEnum$18.class
 org\bsuir\commands\get\FindLesson.class
 org\bsuir\rowmappers\GroupRowMapper.class
 org\bsuir\dto\Subject.class
+org\bsuir\WebConfig.class
 org\bsuir\dao\common\DaoFactory.class
 org\bsuir\exceptions\connection\DriverNotFoundException.class
 org\bsuir\rowmappers\StudentRowMapper$1.class
@@ -28,7 +29,6 @@ org\bsuir\commands\main\CommandEnum$2.class
 org\bsuir\commands\post\DeleteLesson.class
 org\bsuir\commands\get\GetAppCommand.class
 org\bsuir\rowmappers\StudentRowMapper.class
-Main.class
 org\bsuir\commands\get\FindTeacher.class
 org\bsuir\commands\main\CommandEnum$17.class
 org\bsuir\commands\main\CommandEnum$20.class
@@ -41,6 +41,7 @@ org\bsuir\dao\types\LessonDao.class
 org\bsuir\commands\post\AddTeacher.class
 org\bsuir\dto\Group.class
 org\bsuir\commands\get\ShowStudentsCommand.class
+org\bsuir\spa\SPAController.class
 org\bsuir\service\rest\SubjectRestService.class
 org\bsuir\controller\Controller.class
 org\bsuir\commands\post\UpdateLesson.class
@@ -63,6 +64,7 @@ org\bsuir\commands\post\AddStudent.class
 org\bsuir\service\LessonService.class
 org\bsuir\exceptions\connection\ConnectionClosingException.class
 org\bsuir\dao\types\GroupDao.class
+org\bsuir\BootApplication.class
 org\bsuir\commands\main\CommandEnum.class
 org\bsuir\commands\post\AddLesson.class
 org\bsuir\dao\rest\StudentRestDao.class
