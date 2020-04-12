@@ -11,7 +11,7 @@
         <repository>
             <id>github</id>
             <name>Servlet repository</name>
-            <url>https://github.com/ArtSCactus/Aiposizi-lab-works</url>
+            <url>https://git.heroku.com/aipos-servlet.git</url>
         </repository>
     </distributionManagement>
     <parent>
