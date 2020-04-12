@@ -36,7 +36,6 @@
                 <input id="subject-edit-hours-input" type="text" name="hours" placeholder="Hours..." value="">
                 <input id="subject-edit-btn" type="submit" value="edit">
             </form>
-    <c:if test="${not empty pageContent.attributes.get('subjects')}">
         <table id="subjects-table">
             <thead>
             <tr>
@@ -45,7 +44,7 @@
                 <th>hours</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="subjects-tbody">
                 <%--@elvariable id="subject" type="org.bsuir.dto.Subject--%>
             <c:forEach var="subject" items="${pageContent.attributes.get('subjects')}">
                 <tr>
@@ -56,7 +55,6 @@
             </c:forEach>
             </tbody>
         </table>
-    </c:if>
 </div>
 <div id="teachers-page">
     <form id="add-teacher-from" class="add-form" method="POST" action="controller">
@@ -79,7 +77,6 @@
                 <input id="edit-teacher-surname-input" type="text" value="" placeholder="Surname...">
                 <input id="edit-teacher-btn" type="submit" value="Edit">
             </form>
-    <c:if test="${not empty pageContent.attributes.get('teachers')}">
         <table id="teachers-table">
             <thead>
             <tr>
@@ -88,7 +85,7 @@
                 <th>surname</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="teachers-tbody">
             <c:forEach var="teacher" items="${pageContent.attributes.get('teachers')}">
                 <tr>
                     <td>${teacher.id}</td>
@@ -98,7 +95,6 @@
             </c:forEach>
             </tbody>
         </table>
-    </c:if>
 </div>
 <div id="lessons-page">
     <form id="add-lesson-form" class="add-form" method="POST" action="controller">
@@ -157,7 +153,6 @@
                 <input id="lesson-edit-subject-input" type="text" name="subjectId" placeholder="Subject id..." value="">
                 <input type="submit" value="edit">
             </form>
-    <c:if test="${not empty pageContent.attributes.get('lessons')}">
         <table id="lessons-table">
             <thead>
             <tr>
@@ -179,7 +174,6 @@
             </c:forEach>
             </tbody>
         </table>
-    </c:if>
 </div>
 <div id="students-page">
     <form id="add-student-form" class="add-form" method="POST" action="controller">
@@ -199,7 +193,7 @@
         <input id="delete-student-id-input" type="text" name="id" placeholder="Id..." required="required">
         <input id="delete-student-btn" type="submit" value="delete">
     </form>
-    <form id="student-edit-form" class="find-by-id-form">
+    <form id="student-find-form" class="find-by-id-form">
         <input id="find-student-id-input" type="text" name="id" placeholder="Id..." required="required">
         <input id="find-student-btn" class="find-btn" type="submit" value="find">
     </form>
@@ -217,7 +211,6 @@
         </select>
                 <input id="student-edit-btn" type="submit" value="edit">
             </form>
-    <c:if test="${not empty requestScope.PageContent.attributes.get('students')}">
         <table id="students-table">
             <thead>
             <tr>
@@ -228,7 +221,7 @@
                 <th>group</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="students-tbody">
                 <%--@elvariable id="student" type="org.bsuir.dto.Student"--%>
             <c:forEach var="student" items="${requestScope.PageContent.attributes.get('students')}">
                 <tr>
@@ -241,7 +234,6 @@
             </c:forEach>
             </tbody>
         </table>
-    </c:if>
 </div>
 </body>
 </html>
