@@ -1,0 +1,1 @@
+web: java -jar target/dependency/webapp-runner.jar target/university-app-1.0.war

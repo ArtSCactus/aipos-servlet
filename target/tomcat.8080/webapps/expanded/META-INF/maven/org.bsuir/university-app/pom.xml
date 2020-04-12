@@ -6,16 +6,8 @@
     <groupId>org.bsuir</groupId>
     <artifactId>university-app</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>Servlet repository</name>
-            <url>https://github.com/ArtSCactus/Aiposizi-lab-works</url>
-        </repository>
-    </distributionManagement>
+    <version>1.0</version>
     <build>
-        <defaultGoal>deploy</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -28,35 +20,25 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.3</version>
-                <configuration>
-                    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
-                </configuration>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.9.0</version>
             </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals><goal>copy</goal></goals>
-                        <configuration>
-                            <artifactItems>
-                                <artifactItem>
-                                    <groupId>com.heroku</groupId>
-                                    <artifactId>webapp-runner</artifactId>
-                                    <version>9.0.30.0</version>
-                                    <destFileName>webapp-runner.jar</destFileName>
-                                </artifactItem>
-                            </artifactItems>
-                        </configuration>
-                    </execution>
-                </executions>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>heroku</id>
+            <name>aipos-servlet</name>
+            <url>https://maven.pkg.github.com/ArtSCactus</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <!-- Need this to compile JSP,
@@ -153,6 +135,13 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>3.0.0-M1</version>
+        </dependency>
+
     </dependencies>
 
 </project>

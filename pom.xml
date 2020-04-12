@@ -6,23 +6,8 @@
     <groupId>org.bsuir</groupId>
     <artifactId>university-app</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>Servlet repository</name>
-            <url>https://git.heroku.com/aipos-servlet.git</url>
-        </repository>
-    </distributionManagement>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
-        <relativePath/>
-    </parent>
-    <name>java-getting-started</name>
+    <version>1.0</version>
     <build>
-        <defaultGoal>deploy</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -35,11 +20,14 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.3</version>
-                <configuration>
-                    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
-                </configuration>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.9.0</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -65,6 +53,12 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.jsimone</groupId>
+            <artifactId>webapp-runner</artifactId>
+            <version>9.0.27.1</version>
+            <scope>provided</scope>
+        </dependency>
         <!-- Need this to compile JSP,
             tomcat-embed-jasper version is not working, no idea why -->
         <dependency>

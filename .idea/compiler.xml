@@ -17,7 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="REST-server" options="" />
-      <module name="university-app" options="-parameters" />
+      <module name="university-app" options="" />
     </option>
   </component>
 </project>

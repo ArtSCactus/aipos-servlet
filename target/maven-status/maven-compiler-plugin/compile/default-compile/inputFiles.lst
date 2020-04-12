@@ -25,7 +25,6 @@ D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\Up
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\rowmappers\SubjectRowMapper.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\service\rest\TeacherRestService.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\commands\post\UpdateLesson.java
-D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\controller\Controller.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\dao\types\SubjectDao.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\exceptions\files\ResourcesLoadingException.java
 D:\Projects\aipos-servlet\aipos-servlet\src\main\java\org\bsuir\rowmappers\TeacherRowMapper.java

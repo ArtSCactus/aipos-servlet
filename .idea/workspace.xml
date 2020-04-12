@@ -10,7 +10,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="876cc202-a394-4006-8594-629762c0700b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsimone_webapp_runner_9_0_27_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_9_0_0_M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/university_app_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/university_app_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/university_app_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/university_app_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bsuir/controller/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/bsuir/BootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bsuir/BootApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/bsuir/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bsuir/WebConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/bsuir/commands/factory/CommandFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bsuir/commands/factory/CommandFactory.class" afterDir="false" />
@@ -115,111 +168,212 @@
       <change beforePath="$PROJECT_DIR$/target/classes/org/bsuir/service/rest/SubjectRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bsuir/service/rest/SubjectRestService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/bsuir/service/rest/TeacherRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bsuir/service/rest/TeacherRestService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/bsuir/spa/SPAController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bsuir/spa/SPAController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/BootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/BootApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/factory/CommandFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/factory/CommandFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindLesson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/GetAppCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/GetAppCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowLessonsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowLessonsCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowStudentsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowStudentsCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowSubjectsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowSubjectsCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowTeachersCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowTeachersCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/DefaultCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/DefaultCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddLesson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteLesson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateLesson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/CommandResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/CommandResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/CommandType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/PageContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/PageContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/connection/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/connection/ConnectionPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/connection/ProxyConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/connection/ProxyConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/AbstractDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/AbstractDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/RestRequestExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/RestRequestExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/helper/DaoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/helper/DaoManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/GroupRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/GroupRestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/LessonRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/LessonRestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/StudentRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/StudentRestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/SubjectRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/SubjectRestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/TeacherRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/TeacherRestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/GroupDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/GroupDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/LessonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/LessonDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/SubjectDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/SubjectDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/TeacherDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/util/UriFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/util/UriFormatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Lesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Lesson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/ConnectionClosingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/ConnectionClosingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DatabaseConnectionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DatabaseConnectionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DriverManagerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DriverManagerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DriverNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DriverNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/dao/DaoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/dao/DaoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/files/ResourcesLoadingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/files/ResourcesLoadingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/rest/RequestExecutionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/rest/RequestExecutionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/rowmapper/RowMapperException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/rowmapper/RowMapperException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/service/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/service/ServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/GroupRowMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/GroupRowMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/GroupRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/GroupRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/LessonRowMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/LessonRowMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/LessonRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/LessonRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/RowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/RowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/StudentRowMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/StudentRowMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/StudentRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/StudentRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/SubjectRowMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/SubjectRowMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/SubjectRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/SubjectRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/LessonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/LessonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/SubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/SubjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/TeacherService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/LessonRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/LessonRestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/StudentRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/StudentRestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/SubjectRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/SubjectRestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/TeacherRestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/TeacherRestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/spa/SPAController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/spa/SPAController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/org.bsuir/university-app/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/org.bsuir/university-app/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/org.bsuir/university-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/org.bsuir/university-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/config/connection pool.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/BootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/factory/CommandFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindLesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/FindTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/GetAppCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowLessonsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowStudentsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowSubjectsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/get/ShowTeachersCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/CommandEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/main/DefaultCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddLesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/AddTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteLesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/DeleteTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateLesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/post/UpdateTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/CommandResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/CommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/commands/result/PageContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/connection/ConnectionPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/connection/ProxyConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/controller/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/AbstractDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/DaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/common/RestRequestExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/helper/DaoManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/GroupRestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/LessonRestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/StudentRestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/SubjectRestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/rest/TeacherRestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/GroupDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/LessonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/SubjectDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/types/TeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dao/util/UriFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Lesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/dto/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/ConnectionClosingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DatabaseConnectionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DriverManagerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/connection/DriverNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/dao/DaoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/files/ResourcesLoadingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/rest/RequestExecutionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/rowmapper/RowMapperException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/exceptions/service/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/GroupRowMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/GroupRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/LessonRowMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/LessonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/RowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/StudentRowMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/StudentRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/SubjectRowMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/SubjectRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/rowmappers/TeacherRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/GroupService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/LessonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/SubjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/GroupRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/LessonRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/StudentRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/SubjectRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/service/rest/TeacherRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/org/bsuir/spa/SPAController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/requests/REST url.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/requests/SQL_requests.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/css/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/pages/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/script/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/script/applicationBeans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/script/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/classes/static/script/ui-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/bootstrap-3.3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jquery-1.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/json-20190722.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/application.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/lessons.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/subjects.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/view/teachers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/resources/css/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/resources/script/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/resources/script/applicationBeans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/resources/script/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-app-1.0-SNAPSHOT/resources/script/ui-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/university-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/application.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/lessons.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/subjects.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/teachers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/applicationBeans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/ui-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp-runner.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +392,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ArtSCactus &lt;artemir14@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -284,10 +443,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14921875" />
     <property name="project.structure.side.proportion" value="0.53103447" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="RemoteServers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -378,6 +537,10 @@
       <command value="heroku config:set WEBAPP_RUNNER_OPTS=&quot;--path target/dependency/&quot;" />
       <command value="git push heroku mast" />
       <command value="git push heroku master" />
+      <command value="mvn deplyo:default-deploy" />
+      <command value="mvn deploy:default-deploy" />
+      <command value="mvn deploy:deploy" />
+      <command value="mvn war:war deploy:deploy" />
       <command value="mvn deploy -Dregistry=https://maven.pkg.github.com/ArtSCactus -Dtoken=GH_TOKEN" />
     </option>
   </component>
@@ -533,8 +696,17 @@
       <workItem from="1586474349101" duration="23425000" />
       <workItem from="1586560526788" duration="8242000" />
       <workItem from="1586604428489" duration="18781000" />
-      <workItem from="1586688899686" duration="9610000" />
+      <workItem from="1586688899686" duration="13329000" />
+      <workItem from="1586711407997" duration="424000" />
     </task>
+    <task id="LOCAL-00001" summary="Pom update">
+      <created>1586707285818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586707285818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,6 +714,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Pom update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pom update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="70" key="#Project_Structure" timestamp="1586601616015">
@@ -576,42 +750,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586627130311" />
-    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1586553969101">
+    <state x="445" y="0" key="#university-app_[deploy]" timestamp="1586708053453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586553969101" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1586706395452">
+    <state x="445" y="0" key="#university-app_[deploy]/0.0.1536.824@0.0.1536.824" timestamp="1586708053453" />
+    <state x="363" y="0" key="CommitChangelistDialog2" timestamp="1586707280877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586706395452" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1586706395452">
+    <state x="363" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586707280877" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1586708219019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586706395452" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1586706395452">
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586708219019" />
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1586711796981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586706395452" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1586706395452">
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586711796981" />
+    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1586711796981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586706395452" />
-    <state width="1024" height="88" key="GridCell.Tab.1.bottom" timestamp="1586694212761">
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586711796981" />
+    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1586711796981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="88" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586694212761" />
-    <state width="1024" height="88" key="GridCell.Tab.1.center" timestamp="1586694212760">
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586711796981" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1586711796981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="88" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586694212760" />
-    <state width="1024" height="88" key="GridCell.Tab.1.left" timestamp="1586694212760">
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586711796981" />
+    <state width="1024" height="163" key="GridCell.Tab.1.bottom" timestamp="1586708293641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="88" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586694212760" />
-    <state width="1024" height="88" key="GridCell.Tab.1.right" timestamp="1586694212760">
+    <state width="1024" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586708293641" />
+    <state width="1024" height="163" key="GridCell.Tab.1.center" timestamp="1586708293641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="88" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586694212760" />
+    <state width="1024" height="163" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586708293641" />
+    <state width="1024" height="163" key="GridCell.Tab.1.left" timestamp="1586708293641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="163" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586708293641" />
+    <state width="1024" height="163" key="GridCell.Tab.1.right" timestamp="1586708293641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="163" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586708293641" />
     <state width="1024" height="230" key="GridCell.Tab.2.bottom" timestamp="1586624213465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -652,22 +834,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1586605049845" />
-    <state x="287" y="0" key="SettingsEditor" timestamp="1586620996881">
+    <state x="287" y="0" key="SettingsEditor" timestamp="1586711809167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="287" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586620996881" />
-    <state x="444" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586475005870">
+    <state x="287" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586711809167" />
+    <state x="444" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586711531536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="444" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586475005870" />
+    <state x="444" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586711531536" />
     <state x="811" y="261" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586605087607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="811" y="261" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1586605087607" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1586706395471">
+    <state x="209" y="19" key="new project wizard" timestamp="1586710041972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586706395471" />
+    <state x="209" y="19" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586710041972" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1586711814346">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586711814346" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586627122926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
