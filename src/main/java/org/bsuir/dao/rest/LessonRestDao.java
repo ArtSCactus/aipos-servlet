@@ -1,33 +1,29 @@
 package org.bsuir.dao.rest;
 
 import com.google.gson.Gson;
+import org.bsuir.config.DataServerUrls;
 import org.bsuir.dao.common.Dao;
-import org.bsuir.dao.common.RestRequestExecutor;
-import org.bsuir.dao.util.UriFormatter;
+import org.bsuir.dao.common.AbstractDao;
 import org.bsuir.dto.Lesson;
 import org.bsuir.rowmappers.LessonRowMapper;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.PropertyResourceBundle;
-import java.util.ResourceBundle;
 
 /**
  * @author ArtSCactus
  * @version 1.0
  */
-public class LessonRestDao extends RestRequestExecutor<Lesson> implements Dao<Lesson> {
-    private ResourceBundle uris;
+public class LessonRestDao extends AbstractDao<Lesson> implements Dao<Lesson> {
+    private DataServerUrls config;
 
     public LessonRestDao() {
-        uris = PropertyResourceBundle.getBundle("requests/REST url");
+       config = new DataServerUrls();
     }
 
     @Override
     public Optional<Lesson> getById(Long id) {
-        UriFormatter uriFormatter = new UriFormatter();
-        String uri = uris.getString("get_lesson_by_id");
-        uri = uriFormatter.format(uri, id);
+        String uri = config.getLessonById(id);
         List<Lesson> teacherList = super.executeGet(uri, new LessonRowMapper());
         if (teacherList.isEmpty()) {
             return Optional.empty();
@@ -38,21 +34,19 @@ public class LessonRestDao extends RestRequestExecutor<Lesson> implements Dao<Le
 
     @Override
     public List<Lesson> getAll() {
-        return super.executeGet(uris.getString("get_all_lessons"), new LessonRowMapper());
+        return super.executeGet(config.getAllLessons(), new LessonRowMapper());
     }
 
     @Override
     public int save(Lesson item) {
         Gson gson = new Gson();
         String json = gson.toJson(item);
-        return super.executePost(uris.getString("update_lesson"), json);
+        return super.executePost(config.getUpdateLesson(), json);
     }
 
     @Override
     public int removeById(Long id) {
-        UriFormatter formatter = new UriFormatter();
-        String uri = uris.getString("delete_lesson_by_id");
-        uri = formatter.format(uri, id);
+        String uri = config.getLessonById(id);
         return super.executeDelete(uri);
     }
 }

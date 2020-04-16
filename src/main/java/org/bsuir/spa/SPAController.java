@@ -1,15 +1,12 @@
 package org.bsuir.spa;
 
-import org.bsuir.commands.result.PageContent;
+import org.bsuir.dto.PageContent;
 import org.bsuir.dto.*;
 import org.bsuir.service.*;
-import org.bsuir.service.rest.*;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import java.util.List;
 
@@ -20,19 +17,23 @@ import java.util.List;
 @Controller
 @RequestMapping("/app")
 public class SPAController {
+    @RequestMapping("/error")
+    public String notFound() {
+        return "404";
+    }
+
     @GetMapping("/get")
-    public String firstView(Model model)
-    {
-        SubjectService subjectService = new SubjectRestService();
-        TeacherService teacherService = new TeacherRestService();
-        LessonService lessonService = new LessonRestService();
-        GroupService groupService = new GroupRestService();
-        StudentService studentService = new StudentRestService();
+    public String firstView(Model model) {
+        SubjectRestService subjectService = new SubjectRestService();
+        TeacherRestService teacherService = new TeacherRestService();
+        LessonRestService lessonService = new LessonRestService();
+        GroupRestService groupService = new GroupRestService();
+        StudentRestService studentService = new StudentRestService();
         PageContent content = new PageContent();
         List<Group> groups = groupService.getAllGroups();
         List<Lesson> lessons = lessonService.getAllLessons();
         List<Teacher> teacherList = teacherService.getAllTeachers();
-        List<Subject> subjectList =  subjectService.getAll();
+        List<Subject> subjectList = subjectService.getAll();
         List<Student> studentsList = studentService.getAllStudents();
         content.setAttribute("teachers", teacherList);
         content.setAttribute("groups", groups);

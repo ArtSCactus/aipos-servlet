@@ -1,33 +1,30 @@
 package org.bsuir.dao.rest;
 
 import com.google.gson.Gson;
+import org.bsuir.config.DataServerUrls;
 import org.bsuir.dao.common.Dao;
-import org.bsuir.dao.common.RestRequestExecutor;
-import org.bsuir.dao.util.UriFormatter;
+import org.bsuir.dao.common.AbstractDao;
 import org.bsuir.dto.Group;
 import org.bsuir.rowmappers.GroupRowMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.PropertyResourceBundle;
-import java.util.ResourceBundle;
 
 /**
  * @author ArtSCactus
  * @version 1.0
  */
-public class GroupRestDao extends RestRequestExecutor<Group> implements Dao<Group> {
-    private ResourceBundle uris;
+public class GroupRestDao extends AbstractDao<Group> implements Dao<Group> {
+    private DataServerUrls config;
 
     public GroupRestDao() {
-        uris = PropertyResourceBundle.getBundle("requests/REST url");
+        config = new DataServerUrls();
     }
 
     @Override
     public Optional<Group> getById(Long id) {
-        UriFormatter uriFormatter = new UriFormatter();
-        String uri = uris.getString("get_group_by_id");
-        uri = uriFormatter.format(uri, id);
+        String uri = config.getGroupById(id);
         List<Group> teacherList = super.executeGet(uri, new GroupRowMapper());
         if (teacherList.isEmpty()) {
             return Optional.empty();
@@ -38,21 +35,19 @@ public class GroupRestDao extends RestRequestExecutor<Group> implements Dao<Grou
 
     @Override
     public List<Group> getAll() {
-        return super.executeGet(uris.getString("get_all_groups"), new GroupRowMapper());
+        return super.executeGet(config.getAllGroups(), new GroupRowMapper());
     }
 
     @Override
     public int save(Group item) {
         Gson gson = new Gson();
         String json = gson.toJson(item);
-        return super.executePost(uris.getString("update_group"), json);
+        return super.executePost(config.getUpdateGroup(), json);
     }
 
     @Override
     public int removeById(Long id) {
-        UriFormatter formatter = new UriFormatter();
-        String uri = uris.getString("delete_group_by_id");
-        uri = formatter.format(uri, id);
+        String uri = config.getGroupById(id);
         return super.executeDelete(uri);
     }
 }
