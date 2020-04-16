@@ -45,18 +45,18 @@ function showSubjectsPage() {
 class DataManager {
 
     constructor() {
-        this.allTeachersURL = 'http://aipos-labs.herokuapp.com/teachers/all';
-        this.allStudentsURL = 'http://aipos-labs.herokuapp.com/students/all';
-        this.allLessonsURL = 'http://aipos-labs.herokuapp.com/lessons/all';
-        this.allSubjectsURL = 'http://aipos-labs.herokuapp.com/subjects/all';
-        this.teacherByIdURL = 'http://aipos-labs.herokuapp.com/teachers/'; //+id required
-        this.subjectByIdURL = 'http://aipos-labs.herokuapp.com/subjects/'; //+id required
-        this.lessonByIdURL = 'http://aipos-labs.herokuapp.com/lessons/'; //+id required
-        this.studentByIdURL = 'http://aipos-labs.herokuapp.com/students/'; //+id required
-        this.updateTeacherURL = 'http://aipos-labs.herokuapp.com/teachers/update';
-        this.updateSubjectURL = 'http://aipos-labs.herokuapp.com/subjects/update';
-        this.updateStudentURL = 'http://aipos-labs.herokuapp.com/students/update';
-        this.updateLessonURL = 'http://aipos-labs.herokuapp.com/lessons/update';
+        this.allTeachersURL = 'http://university-rest-server.herokuapp.com/teachers/all';
+        this.allStudentsURL = 'http://university-rest-server.herokuapp.com/students/all';
+        this.allLessonsURL = 'http://university-rest-server.herokuapp.com/lessons/all';
+        this.allSubjectsURL = 'http://university-rest-server.herokuapp.com/subjects/all';
+        this.teacherByIdURL = 'http://university-rest-server.herokuapp.com/teachers/'; //+id required
+        this.subjectByIdURL = 'http://university-rest-server.herokuapp.com/subjects/'; //+id required
+        this.lessonByIdURL = 'http://university-rest-server.herokuapp.com/lessons/'; //+id required
+        this.studentByIdURL = 'http://university-rest-server.herokuapp.com/students/'; //+id required
+        this.updateTeacherURL = 'http://university-rest-server.herokuapp.com/teachers/update';
+        this.updateSubjectURL = 'http://university-rest-server.herokuapp.com/subjects/update';
+        this.updateStudentURL = 'http://university-rest-server.herokuapp.com/students/update';
+        this.updateLessonURL = 'http://university-rest-server.herokuapp.com/lessons/update';
     }
 
     loadAllTeachers() {
@@ -137,7 +137,7 @@ class DataManager {
 
     /** Executes GET request by url and returns *.responseText.
      *
-     * @param url (like http://localhost:8081/teachers/all), only ports: 8081, 8080 is allowed
+     * @param url (like http://university-rest-server.herokuapp.com/teachers/all), only ports: 8081, 8080 is allowed
      */
     executeGetRequestToREST(url) {
         var xhr = new XMLHttpRequest();

@@ -12,6 +12,7 @@
     <groupId>org.bsuir</groupId>
     <artifactId>university-view</artifactId>
     <version>1.0</version>
+    <packaging>war</packaging>
     <name>view-server</name>
     <description>A representation server for university app</description>
 
@@ -20,12 +21,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.heroku</groupId>
-            <artifactId>webapp-runner</artifactId>
-            <version>9.0.31.0</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -63,10 +58,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>

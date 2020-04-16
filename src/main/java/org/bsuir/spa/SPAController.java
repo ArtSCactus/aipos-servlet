@@ -15,16 +15,11 @@ import java.util.List;
  * @version 1.0
  */
 @Controller
-@RequestMapping("/app")
 public class SPAController {
-    @RequestMapping("/error")
-    public String notFound() {
-        return "404";
-    }
 
-    @GetMapping("/get")
+    @GetMapping(value ="/app")
     public String firstView(Model model) {
-        SubjectRestService subjectService = new SubjectRestService();
+      /*  SubjectRestService subjectService = new SubjectRestService();
         TeacherRestService teacherService = new TeacherRestService();
         LessonRestService lessonService = new LessonRestService();
         GroupRestService groupService = new GroupRestService();
@@ -39,8 +34,8 @@ public class SPAController {
         content.setAttribute("groups", groups);
         content.setAttribute("subjects", subjectList);
         content.setAttribute("lessons", lessons);
-        content.setAttribute("students", studentsList);
-        model.addAttribute("PageContent", content);
+        content.setAttribute("students", studentsList);*/
+        /*model.addAttribute("PageContent", content);*/
         return "application";
     }
 }
