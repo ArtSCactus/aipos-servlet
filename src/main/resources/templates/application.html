@@ -1,17 +1,40 @@
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <title>University</title>
+    <!--   <meta name="google-signin-scope" content="profile email">
+       <meta name="google-signin-client_id" content="780899462817-2n0un7edn918957ou6nu8nkm87bgtq5o.apps.googleusercontent.com">
+       <script src="https://apis.google.com/js/platform.js" async defer></script>-->
     <script type="text/javascript" src="/script/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="/script/applicationBeans.js"></script>
-    <script type="text/javascript" src="/script/application.js"></script>
+    <script type="text/javascript" src="/script/applicationCore.js"></script>
     <script type="text/javascript" src="/script/ui-scripts.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/application.css"/>
 </head>
 <body>
-<button id="teacher-header-btn">Teachers</button>
-<button id="student-header-btn">Students</button>
-<button id="lesson-header-btn">Lessons</button>
-<button id="subject-header-btn">Subjects</button>
+<div id="login-page">
+    <form id="login-form">
+        <label>
+            Username:
+            <input id="login-username-field" type="text" placeholder="Username">
+        </label>
+        <br>
+        <label>
+            Password
+            <input id="login-pass-field" type="password" placeholder="password">
+        </label>
+        <br>
+        <input id="login-submit-btn" type="submit" value="Submit">
+    </form>
+    <div id="wrong-username-or-password-msg" style="display: none;">Wrong username or password</div>
+    <div><a href="http://localhost:8081/oauth2/authorization/google">Sign in with google</a></div>
+</div>
+<header>
+    <button id="teacher-header-btn">Teachers</button>
+    <button id="student-header-btn">Students</button>
+    <button id="lesson-header-btn">Lessons</button>
+    <button id="subject-header-btn">Subjects</button>
+    <button id="logout-header-btn">Logout</button>
+</header>
 <div id="subjects-page">
     <form id="subject-add-form" class="add-form">
         <input id="subject-add-name-input" type="text" placeholder="Name..." required="required">
@@ -22,7 +45,7 @@
         <input id="subject-delete-id-input" type="text" placeholder="Id..." required="required">
         <input id="subject-delete-btn" type="submit" value="delete">
     </form>
-    <form id="subject-find-form" class="find-form" method="get" action="controller">
+    <form id="subject-find-form" class="find-form" method="get">
         <input id="subject-find-id-input" type="text" name="id" placeholder="Id..." required="required">
         <input id="subject-find-btn" class="find-btn" type="submit" value="find">
     </form>
@@ -46,7 +69,7 @@
     </table>
 </div>
 <div id="teachers-page">
-    <form id="add-teacher-from" class="add-form" method="POST" action="controller">
+    <form id="add-teacher-from" class="add-form">
         <input id="teacher-name-input-field" type="text" name="name" placeholder="Name..." required="required">
         <input id="teacher-surname-input-field" type="text" name="surname" placeholder="Surname..." required="required">
         <input id="add-teacher-btn" type="submit" value="Add">
@@ -135,18 +158,18 @@
         <input id="add-student-rating-input" type="text" name="rating" placeholder="Rating..." required="required">
         <select id="add-student-group-select">
         </select>
-            <input id="add-student-btn" type="submit" value="submit">
+        <input id="add-student-btn" type="submit" value="submit">
     </form>
     <form id="students-delete-form" class="delete-form">
         <input id="delete-student-id-input" type="text" name="id" placeholder="Id..." required="required">
         <input id="delete-student-btn" type="submit" value="delete">
     </form>
-    <form id="student-find-form" class="find-by-id-form">
+    <form id="student-find-form" class="find-form">
         <input id="find-student-id-input" type="text" name="id" placeholder="Id..." required="required">
         <input id="find-student-btn" class="find-btn" type="submit" value="find">
     </form>
     <h3 id="student-not-found-msg" class="not-found-msg">No student found</h3>
-    <form id="student-edit-form">
+    <form id="student-edit-form" class="edit-form">
         <input id="student-edit-id-input" type="hidden" name="id" value="">
         <input id="student-edit-name-input" type="text" name="name" placeholder="Name..." value="">
         <input id="student-edit-surname-input" type="text" name="surname" placeholder="Surname..." value="">

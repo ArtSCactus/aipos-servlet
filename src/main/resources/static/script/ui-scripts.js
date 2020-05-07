@@ -1,3 +1,12 @@
+function successAuth(user) {
+
+}
+
+$(document).on("click", "#student-header-btn", function () {
+    updateStudentTable();
+    showStudentsPage();
+});
+
 function appendToStudentTable(studentBean) {
     let tbody = document.getElementById('students-table').getElementsByTagName("tbody")[0];
     let row = document.createElement('tr');
@@ -134,7 +143,8 @@ $(document).on("click", "#student-header-btn", function () {
     showStudentsPage();
 });
 
-$(document).on("click", '#add-teacher-btn', function () {
+$(document).on("click", '#add-teacher-btn', function (event) {
+    event.preventDefault();
     let name = document.getElementById('teacher-name-input-field').value;
     let surname = document.getElementById('teacher-surname-input-field').value;
     let bean = new TeacherBean(null, name, surname);
@@ -317,4 +327,101 @@ $(document).on('click', '#subject-edit-btn', function (event) {
     dataManager.saveSubject(subject);
     updateSubjectTable();
 });
+
+
+function showTeachersPage() {
+    var teacherPage = document.getElementById('teachers-page');
+    var studentPage = document.getElementById('students-page');
+    var lessonPage = document.getElementById('lessons-page');
+    var subjectPage = document.getElementById('subjects-page');
+    teacherPage.style.display = 'block';
+    subjectPage.style.display = 'none';
+    studentPage.style.display = 'none';
+    lessonPage.style.display = 'none';
+}
+
+function showStudentsPage() {
+    var teacherPage = document.getElementById('teachers-page');
+    var studentPage = document.getElementById('students-page');
+    var lessonPage = document.getElementById('lessons-page');
+    var subjectPage = document.getElementById('subjects-page');
+    teacherPage.style.display = 'none';
+    subjectPage.style.display = 'none';
+    studentPage.style.display = 'block';
+    lessonPage.style.display = 'none';
+}
+
+function showHeader() {
+    let teachersBtn = document.getElementById('teacher-header-btn');
+    let studentsBtn = document.getElementById('students-header-btn');
+    let subjectsBtn = document.getElementById('subjects-header-btn');
+    let lessonsBtn = document.getElementById('lessons-header-btn');
+    teachersBtn.style.display = 'block';
+    studentsBtn.style.display = 'block';
+    subjectsBtn.style.display = 'block';
+    lessonsBtn.style.display = 'block';
+
+}
+
+function hideHeader() {
+    let teachersBtn = document.getElementById('teacher-header-btn');
+    let studentsBtn = document.getElementById('students-header-btn');
+    let subjectsBtn = document.getElementById('subjects-header-btn');
+    let lessonsBtn = document.getElementById('lessons-header-btn');
+    teachersBtn.style.display = 'none';
+    studentsBtn.style.display = 'none';
+    subjectsBtn.style.display = 'none';
+    lessonsBtn.style.display = 'none';
+
+}
+
+function showLessonsPage() {
+    let teacherPage = document.getElementById('teachers-page');
+    let studentPage = document.getElementById('students-page');
+    let lessonPage = document.getElementById('lessons-page');
+    let subjectPage = document.getElementById('subjects-page');
+    teacherPage.style.display = 'none';
+    subjectPage.style.display = 'none';
+    studentPage.style.display = 'none';
+    lessonPage.style.display = 'block';
+}
+
+function showSubjectsPage() {
+    let teacherPage = document.getElementById('teachers-page');
+    let studentPage = document.getElementById('students-page');
+    let lessonPage = document.getElementById('lessons-page');
+    let subjectPage = document.getElementById('subjects-page');
+    teacherPage.style.display = 'none';
+    subjectPage.style.display = 'block';
+    studentPage.style.display = 'none';
+    lessonPage.style.display = 'none';
+}
+
+function hideLoginPage() {
+    $('#login-page').css('display', 'none');
+    $('header').css('display', 'block');
+    $('#teachers-page').css('display', 'block');
+}
+
+function showLoginPage(){
+    $('#login-page').css('display', 'block');
+    $('header').css('display', 'none');
+    $('#teachers-page').css('display', 'none');
+    $('#students-page').css('display', 'none');
+    $('#lessons-page').css('display', 'none');
+    $('#subjects-page').css('display', 'none');
+}
+
+function hideEditComponents() {
+    $('.add-form').css('display', 'none');
+    $('.delete-form').css('display', 'none');
+    $('.find-form').css('display', 'none');
+    $('.edit-form').css('display', 'none');
+}
+function showEditComponents() {
+    $('.add-form').css('display', 'block');
+    $('.delete-form').css('display', 'block');
+    $('.find-form').css('display', 'block');
+    $('.edit-form').css('display', 'block');
+}
 

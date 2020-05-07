@@ -187,7 +187,7 @@ class SubjectBean {
         this.hours = value;
     }
 
-    /** Returns a SubjectBean object from non JSON.
+    /** Returns a SubjectBean object from the JSON.
      *
      * @param json
      * @returns SubjectBean
@@ -263,7 +263,7 @@ class LessonBean {
         this.teacherId = value;
     }
 
-    /** Returns a LessonBean object from non JSON.
+    /** Returns a LessonBean object from the JSON.
      *
      * @param json
      * @returns LessonBean
@@ -289,6 +289,72 @@ class LessonBean {
         for (let index = 0; index < teachersJSONArray.length; index++) {
             console.log(teachersJSONArray[index]);
             objects.push(LessonBean.from(teachersJSONArray[index]));
+        }
+        return objects;
+    }
+}
+
+class UserBean{
+    name;
+    email;
+    authority;
+    constructor(name, email, role) {
+        this.name = name;
+        this.email = email;
+        this.authority = role;
+    }
+
+    get name() {
+        return this.name;
+    }
+
+    set name(value) {
+        this.name = value;
+    }
+
+    get email() {
+        return this.email;
+    }
+
+    set email(value) {
+        this.email = value;
+    }
+
+    get authority() {
+        return this.authority;
+    }
+
+    set authority(value) {
+        this.authority = value;
+    }
+
+    /** Returns a UserBean object from the JSON.
+     *
+     * @param json
+     * @returns UserBean
+     */
+    static from(json) {
+        let parsedJson;
+        console.log("User json: "+json);
+        if ((typeof json) === "string"){
+            parsedJson  = JSON.parse(json);
+
+        } else {
+            parsedJson = json;
+        }
+        return new UserBean(parsedJson.name, parsedJson.email, parsedJson.authority)
+    }
+
+    /** Returns an array of UserBean objects from JSON array.
+     * @param json
+     * @returns [UserBean]
+     * */
+    static fromArray(json) {
+        let usersJSONArray = JSON.parse(json);
+        let objects = [];
+        for (let index = 0; index < usersJSONArray.length; index++) {
+            console.log(usersJSONArray[index]);
+            objects.push(UserBean.from(usersJSONArray[index]));
         }
         return objects;
     }
