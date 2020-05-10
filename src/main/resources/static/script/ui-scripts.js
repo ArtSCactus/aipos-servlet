@@ -425,3 +425,16 @@ function showEditComponents() {
     $('.edit-form').css('display', 'block');
 }
 
+$(document).on("click", "#to-sign-up-page-btn", function (event) {
+event.preventDefault();
+$('#sign-in-page').css('display', 'none');
+$('#sign-up-page').css('display', 'block');
+});
+
+$(document).on("click", "#to-sign-in-page-btn", function (event) {
+event.preventDefault();
+$('#sign-up-page').css('display', 'none');
+$('#sign-in-page').css('display', 'block');
+});
+
+

@@ -1,9 +1,5 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <title>University</title>
-    <!--   <meta name="google-signin-scope" content="profile email">
-       <meta name="google-signin-client_id" content="780899462817-2n0un7edn918957ou6nu8nkm87bgtq5o.apps.googleusercontent.com">
-       <script src="https://apis.google.com/js/platform.js" async defer></script>-->
     <script type="text/javascript" src="/script/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="/script/applicationBeans.js"></script>
     <script type="text/javascript" src="/script/applicationCore.js"></script>
@@ -11,22 +7,44 @@
     <link rel="stylesheet" type="text/css" href="/css/application.css"/>
 </head>
 <body>
-<div id="login-page">
+<div id="sign-in-page">
     <form id="login-form">
         <label>
             Username:
-            <input id="login-username-field" type="text" placeholder="Username">
+            <input id="login-username-field" type="text" placeholder="Username" required pattern="[A-zА-я]{1,30}">
         </label>
         <br>
         <label>
-            Password
-            <input id="login-pass-field" type="password" placeholder="password">
+            Password:
+            <input id="login-pass-field" type="password" placeholder="password" required pattern="^[<>\s]{3,45}">
         </label>
         <br>
         <input id="login-submit-btn" type="submit" value="Submit">
     </form>
     <div id="wrong-username-or-password-msg" style="display: none;">Wrong username or password</div>
-    <div><a href="http://university-rest-server.herokuapp.com/oauth2/authorization/google">Sign in with google</a></div>
+    <a href="https://university-rest-server.herokuapp.com/oauth2/authorization/google">Sign in with google</a>
+    <button id="to-sign-up-page-btn">Sign up</button>
+</div>
+<div id="sign-up-page">
+    <form id="registration-form">
+        <label>
+            Username:
+            <input id="registration-username-field" type="text" placeholder="Username" required pattern="[A-zА-я]{1,30}">
+        </label>
+        <br>
+        <label>
+            Email:
+            <input id="registration-email-field" type="text" placeholder="Email" required pattern="[A-zА-я_]{1,20}@[A-z]{1,10}.(com|org|ru|by)">
+        </label>
+        <br>
+        <label>
+            Password
+            <input id="registration-pass-field" type="password" placeholder="Password" required pattern="^[<>\s]{3,45}">
+        </label>
+        <br>
+        <input id="registration-submit-btn" type="submit" value="Submit">
+    </form>
+    <button id="to-sign-in-page-btn">Sign in</button>
 </div>
 <header>
     <button id="teacher-header-btn">Teachers</button>

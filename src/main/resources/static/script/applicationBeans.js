@@ -359,3 +359,15 @@ class UserBean{
         return objects;
     }
 }
+class UserRegistrationDTO{
+    name;
+    email;
+    password;
+
+    constructor(name, email, password) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
+
+}

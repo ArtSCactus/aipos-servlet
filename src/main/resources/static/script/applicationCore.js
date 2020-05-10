@@ -1,4 +1,4 @@
-const dataServerHost = 'http://university-rest-server.herokuapp.com';
+const dataServerHost = 'https://university-rest-server.herokuapp.com/';
 var user;
 function resolveUserRole(){
     switch (user.authority) {
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", checkAuthorization());
 function checkAuthorization() {
     $('#wrong-username-or-password-msg').hide();
    $.ajax({
-        url: dataServerHost+"/auth/refresh-token",
+        url: dataServerHost+"auth/refresh-token",
         xhrFields: {
             withCredentials: true
         },
@@ -174,7 +174,7 @@ function checkAuthorization() {
         success: function (data, textStatus, jqXHR) {
             if (jqXHR.status === 200){
                 $.ajax({
-                    url: dataServerHost+"/user/principal",
+                    url: dataServerHost+"user/principal",
                     type: "GET",
                     xhrFields: {
                         withCredentials: true
@@ -213,7 +213,7 @@ function checkAuthorization() {
 $(document).on('click', '#logout-header-btn', function(event){
     event.preventDefault();
   $.ajax({
-        url: dataServerHost+'/auth/logout',
+        url: dataServerHost+'auth/logout',
         type: 'POST',
       xhrFields: {
           withCredentials: true
@@ -235,7 +235,7 @@ $(document).on('click', '#login-submit-btn', function (event) {
     console.log(username, password);
     $.ajax({
         type: 'POST',
-        url: dataServerHost+'/auth/token',
+        url: dataServerHost+'auth/token',
         xhrFields: {
             withCredentials: true
         },
@@ -249,7 +249,7 @@ $(document).on('click', '#login-submit-btn', function (event) {
             if (jqXHR.status === 200) {
                 $.ajax({
                     type: 'GET',
-                    url: dataServerHost+'/user/principal',
+                    url: dataServerHost+'user/principal',
                     xhrFields: {
                         withCredentials: true
                     },
@@ -272,4 +272,37 @@ $(document).on('click', '#login-submit-btn', function (event) {
         }
         });
 });
+
+$(document).on("click", "#registration-submit-btn", function (event) {
+event.preventDefault();
+let username=$('#registration-username-field').val();
+let email=$('#registration-email-field').val();
+let password=$('#registration-pass-field').val();
+let dto = new UserRegistrationDTO(username, email, password);
+let json = JSON.stringify(dto);
+$.post({
+    url: dataServerHost+"auth/sign-up",
+    data: json,
+    dataType: "json",
+    contentType: "application/json; charset=UTF-8",
+    xhrFields: {
+        withCredentials: true
+    },
+    crossDomain: true,
+    success: function (data, textStatus, jqXHR) {
+        if (jqXHR.status === 201) {
+            $('#to-login-page-btn').click();
+        }
+    },
+    error: function (data, textStatus, jqXHR) {
+        switch (jqXHR.status) {
+            case 400:
+                alert("Data server has returned code 400 (Bad request).\n" +
+                    "Please, check data, that you are uploading to server");
+                break;
+        }
+    }
+})
+});
+
 
