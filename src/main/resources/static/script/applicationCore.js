@@ -28,6 +28,12 @@ class DataManager {
         this.updateStudentURL = this.baseHost+'students/update';
         this.updateLessonURL = this.baseHost+'lessons/update';
         this.currentUserURL = this.baseHost+'user';
+        this.allGroupsURL = this.baseHost+'groups/all';
+    }
+
+    loadAllGroups(){
+        let json = this.executeGetRequestToREST(this.allGroupsURL);
+        return GroupBean.fromArray(json);
     }
 
     loadAllTeachers() {
@@ -224,7 +230,6 @@ $(document).on('click', '#logout-header-btn', function(event){
             showLoginPage();
         }
     });
-    //showLoginPage();
 });
 
 $(document).on('click', '#login-submit-btn', function (event) {
@@ -232,7 +237,6 @@ $(document).on('click', '#login-submit-btn', function (event) {
 
     let username = $('#login-username-field').val();
     let password = $('#login-pass-field').val();
-    console.log(username, password);
     $.ajax({
         type: 'POST',
         url: dataServerHost+'auth/token',
@@ -260,6 +264,7 @@ $(document).on('click', '#login-submit-btn', function (event) {
                         }
                         user = UserBean.from(userJson);
                         resolveUserRole();
+                        updateTeacherTable();
                         console.log("Built user on submit click: "+JSON.stringify(user));
                     }
                 });
@@ -291,7 +296,8 @@ $.post({
     crossDomain: true,
     success: function (data, textStatus, jqXHR) {
         if (jqXHR.status === 201) {
-            $('#to-login-page-btn').click();
+            $('#sign-up-page').css('display', 'none');
+            $('#sign-in-page').css('display', 'block');
         }
     },
     error: function (data, textStatus, jqXHR) {

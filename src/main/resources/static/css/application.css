@@ -2,7 +2,7 @@ header, #teachers-page, #students-page, #subjects-page, #lessons-page, #sign-up-
     display: none;
 }
 
-#teacher-edit-form, #student-edit-from, #lesson-edit-form, #subject-edit-form {
+#teacher-edit-form, #student-edit-form, #lesson-edit-form, #subject-edit-form {
     display: none;
 }
 

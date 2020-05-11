@@ -41,8 +41,8 @@ class TeacherBean {
      */
     static from(json) {
         let parsedJson;
-        if ((typeof json) === "string"){
-          parsedJson  = JSON.parse(json);
+        if ((typeof json) === "string") {
+            parsedJson = JSON.parse(json);
 
         } else {
             parsedJson = json;
@@ -128,8 +128,8 @@ class StudentBean {
      */
     static from(json) {
         let parsedJson;
-        if ((typeof json) === "string"){
-            parsedJson  = JSON.parse(json);
+        if ((typeof json) === "string") {
+            parsedJson = JSON.parse(json);
 
         } else {
             parsedJson = json;
@@ -156,6 +156,7 @@ class SubjectBean {
     id;
     name;
     hours;
+
     constructor(id, name, hours) {
         this.id = id;
         this.name = name;
@@ -194,8 +195,8 @@ class SubjectBean {
      */
     static from(json) {
         let parsedJson;
-        if ((typeof json) === "string"){
-            parsedJson  = JSON.parse(json);
+        if ((typeof json) === "string") {
+            parsedJson = JSON.parse(json);
 
         } else {
             parsedJson = json;
@@ -223,6 +224,7 @@ class LessonBean {
     groupId;
     subjectId;
     teacherId;
+
     constructor(id, groupId, subjectId, teacherId) {
         this.id = id;
         this.groupId = groupId;
@@ -270,8 +272,8 @@ class LessonBean {
      */
     static from(json) {
         let parsedJson;
-        if ((typeof json) === "string"){
-            parsedJson  = JSON.parse(json);
+        if ((typeof json) === "string") {
+            parsedJson = JSON.parse(json);
 
         } else {
             parsedJson = json;
@@ -294,10 +296,11 @@ class LessonBean {
     }
 }
 
-class UserBean{
+class UserBean {
     name;
     email;
     authority;
+
     constructor(name, email, role) {
         this.name = name;
         this.email = email;
@@ -335,9 +338,9 @@ class UserBean{
      */
     static from(json) {
         let parsedJson;
-        console.log("User json: "+json);
-        if ((typeof json) === "string"){
-            parsedJson  = JSON.parse(json);
+        console.log("User json: " + json);
+        if ((typeof json) === "string") {
+            parsedJson = JSON.parse(json);
 
         } else {
             parsedJson = json;
@@ -359,7 +362,8 @@ class UserBean{
         return objects;
     }
 }
-class UserRegistrationDTO{
+
+class UserRegistrationDTO {
     name;
     email;
     password;
@@ -370,4 +374,72 @@ class UserRegistrationDTO{
         this.password = password;
     }
 
+}
+
+class GroupBean {
+    id;
+    name;
+    specialty;
+
+    constructor(id, name, specialty) {
+        this.id = id;
+        this.name = name;
+        this.specialty = specialty;
+    }
+
+
+    get id() {
+        return this.id;
+    }
+
+    set id(value) {
+        this.id = value;
+    }
+
+    get name() {
+        return this.name;
+    }
+
+    set name(value) {
+        this.name = value;
+    }
+
+    get specialty() {
+        return this.specialty;
+    }
+
+    set specialty(value) {
+        this.specialty = value;
+    }
+
+    /** Returns a GroupBean object from the JSON.
+     *
+     * @param json
+     * @returns GroupBean
+     */
+    static from(json) {
+        let parsedJson;
+        console.log("Group json: " + json);
+        if ((typeof json) === "string") {
+            parsedJson = JSON.parse(json);
+
+        } else {
+            parsedJson = json;
+        }
+        return new GroupBean(parsedJson.id, parsedJson.name, parsedJson.specialty);
+    }
+
+    /** Returns an array of GroupBean objects from JSON array.
+     * @param json
+     * @returns [GroupBean]
+     * */
+    static fromArray(json) {
+        let usersJSONArray = JSON.parse(json);
+        let objects = [];
+        for (let index = 0; index < usersJSONArray.length; index++) {
+            console.log(usersJSONArray[index]);
+            objects.push(GroupBean.from(usersJSONArray[index]));
+        }
+        return objects;
+    }
 }

@@ -1,7 +1,3 @@
-function successAuth(user) {
-
-}
-
 $(document).on("click", "#student-header-btn", function () {
     updateStudentTable();
     showStudentsPage();
@@ -100,13 +96,20 @@ function updateStudentTable() {
     for (const studentObj of studentArray) {
         appendToStudentTable(studentObj);
     }
+    if (user.authority === 'ADMIN') {
+            let groups = manager.loadAllGroups();
+            $('#add-student-group-select').empty();
+        $.each(groups, function (index, value) {
+                $('#add-student-group-select').append(new Option(value.id, value.name));
+        });
+    }
     console.log('Student table successfully updated');
 }
 
 function updateSubjectTable() {
     clearTable('subjects-table');
-    var manager = new DataManager();
-    var array = manager.loadAllSubjects();
+    let manager = new DataManager();
+    let array = manager.loadAllSubjects();
     for (const item of array) {
         appendToSubjectsTable(item);
     }
@@ -115,10 +118,33 @@ function updateSubjectTable() {
 
 function updateLessonTable() {
     clearTable('lessons-table');
-    var manager = new DataManager();
-    var array = manager.loadAllLessons();
+    let manager = new DataManager();
+    let array = manager.loadAllLessons();
     for (const item of array) {
         appendToLessonsTable(item);
+    }
+    if (user.authority === 'ADMIN'){
+        $('#lesson-add-subject-id-select').empty();
+        $('#lesson-add-teacher-id-select').empty();
+        $('#lesson-add-group-id-select').empty();
+
+        // updating group select
+        let groups = manager.loadAllGroups();
+        $.each(groups, function (index, value) {
+            $('#lesson-add-group-id-select').append(new Option(value.id, value.name));
+        });
+        // updating subjects select
+        let subjects = manager.loadAllSubjects();
+
+        $.each(subjects, function (index, value) {
+            $('#lesson-add-subject-id-select').append(new Option(value.name, value.id));
+        });
+        // updating teachers select
+        let teachersSelectMap = manager.loadAllTeachers();
+
+        $.each(teachersSelectMap, function (index, value) {
+            $('#lesson-add-teacher-id-select').append(new Option(value.name, value.id));
+        });
     }
     console.log('Lesson table successfully updated');
 }
@@ -398,13 +424,13 @@ function showSubjectsPage() {
 }
 
 function hideLoginPage() {
-    $('#login-page').css('display', 'none');
+    $('#sign-in-page').css('display', 'none');
     $('header').css('display', 'block');
     $('#teachers-page').css('display', 'block');
 }
 
 function showLoginPage(){
-    $('#login-page').css('display', 'block');
+    $('#sign-in-page').css('display', 'block');
     $('header').css('display', 'none');
     $('#teachers-page').css('display', 'none');
     $('#students-page').css('display', 'none');
@@ -422,7 +448,7 @@ function showEditComponents() {
     $('.add-form').css('display', 'block');
     $('.delete-form').css('display', 'block');
     $('.find-form').css('display', 'block');
-    $('.edit-form').css('display', 'block');
+    $('.edit-form').css('display', 'none');
 }
 
 $(document).on("click", "#to-sign-up-page-btn", function (event) {
