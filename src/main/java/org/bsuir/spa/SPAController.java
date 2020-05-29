@@ -1,13 +1,8 @@
 package org.bsuir.spa;
 
-import org.bsuir.dto.PageContent;
-import org.bsuir.dto.*;
-import org.bsuir.service.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * @author ArtSCactus
